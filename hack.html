@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Security News</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #0f0;
+        }
+
+        header {
+            background-color: #111;
+            color: #0f0;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #0f0;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .content {
+            margin: 2em auto;
+            max-width: 800px;
+            padding: 0 20px;
+            background-color: #111;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+        }
+
+        h2 {
+            border-bottom: 2px solid #0f0;
+            padding-bottom: 0.5em;
+        }
+
+        ul {
+            list-style: square;
+            padding-left: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form label {
+            margin-top: 10px;
+        }
+
+        form input, form textarea {
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #0f0;
+            border-radius: 4px;
+            background-color: #222;
+            color: #0f0;
+        }
+
+        form button {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #0f0;
+            color: #000;
+            border: none;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #3f3;
+        }
+
+        footer {
+            background-color: #111;
+            color: #0f0;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        a {
+            color: #0f0;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cyber Security Daily</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#tips">Security Tips</a></li>
+                <li><a href="#news">Latest News</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="content">
+        <h2>Welcome to Cyber Security Daily</h2>
+        <p>Stay updated with the latest news and tips to keep your digital life secure.</p>
+    </section>
+    
+    <section id="tips" class="content">
+        <h2>Top Security Tips</h2>
+        <ul>
+            <li>Use strong, unique passwords for each of your accounts.</li>
+            <li>Enable two-factor authentication (2FA) wherever possible.</li>
+            <li>Keep your software and operating system up to date.</li>
+            <li>Be cautious of phishing emails and suspicious links.</li>
+            <li>Use a reputable antivirus program and keep it updated.</li>
+        </ul>
+    </section>
+    
+    <section id="news" class="content">
+        <h2>Latest News</h2>
+        <article>
+            <h3>New Malware Alert</h3>
+            <p>A new form of malware is targeting small businesses. Learn how to protect your systems.</p>
+            <a href="#">Read more...</a>
+        </article>
+        <article>
+            <h3>Data Breach at Major Retailer</h3>
+            <p>Personal data of millions of customers has been compromised. Find out what to do next.</p>
+            <a href="#">Read more...</a>
+        </article>
+    </section>
+    
+    <section id="resources" class="content">
+        <h2>Resources</h2>
+        <p>Explore our curated list of resources to enhance your cybersecurity knowledge:</p>
+        <ul>
+            <li><a href="#">Online Security Courses</a></li>
+            <li><a href="#">Cybersecurity Tools</a></li>
+            <li><a href="#">Best Practices Guides</a></li>
+        </ul>
+    </section>
+    
+    <section id="contact" class="content">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need further assistance, feel free to reach out:</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Cyber Security Daily. All rights reserved.</p>
+    </footer>
+</body>
+</html>
